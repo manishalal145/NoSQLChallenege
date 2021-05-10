@@ -2,17 +2,17 @@
 
 ![mission_to_mars](Images/mission_to_mars.png)
 
-In this assignment, I build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what I need to do.
+In this assignment, I build a web application that scrapes various websites for data related to the Mission to Mars and displayed the information in a single HTML page. The following outlines what I did in this homework:
 
 ## Step 1 - Scraping
 
-Complete the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+Completed the initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-* Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of your scraping and analysis tasks. The following outlines what you need to scrape.
+* Created a Jupyter Notebook file called `mission_to_mars.ipynb` and used this to complete all of the scraping and analysis tasks. The following outlines what needs to scrape.
 
 ### NASA Mars News
 
-* Scrape the [NASA Mars News Site](https://mars.nasa.gov/news/) and collect the latest News Title and Paragraph Text. Assign the text to variables that can be referenced later.
+* Scraped the [NASA Mars News Site](https://mars.nasa.gov/news/) and collected the latest News Title and Paragraph Text. Assigned the text to variables that can be referenced later.
 
 ```python
 # Example:
@@ -27,9 +27,9 @@ news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up 
 
 * Used splinter to navigate the site and find the image url for the current Featured Mars Image and assign the url string to a variable called `featured_image_url`.
 
-* Make sure to find the image url to the full size `.jpg` image.
+* I made sure to find the image url to the full size `.jpg` image.
 
-* Make sure to save a complete url string for this image.
+* I saved a complete url string for this image.
 
 ```python
 # Example:
@@ -38,7 +38,7 @@ featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA1
 
 ### Mars Facts
 
-* Visit the Mars Facts webpage [here](https://space-facts.com/mars/) and used Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+* Visited the Mars Facts webpage [here](https://space-facts.com/mars/) and used Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 
 * Using Pandas to convert the data to a HTML table string.
 
